@@ -1,0 +1,7 @@
+for (java.math.BigInteger value : 
+  new edu.cnm.deepdive.implementations.Fibonacci()) {
+  System.out.println(value);
+  if (value.compareTo(java.math.BigInteger.valueOf(1000000)) >= 0 ) {
+    break;
+  }
+}
