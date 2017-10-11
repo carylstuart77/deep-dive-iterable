@@ -28,7 +28,7 @@ public class Fibonacci implements Iterable<BigInteger> {
     // TODO Auto-generated method stub
     //return new FibIterator();
 
-    // Anonumous class implementing the Iterator <BigInteger> interface.
+    // Anonymous class implementing the Iterator <BigInteger> interface.
     return new Iterator<BigInteger> () {
       //start with -1
       private BigInteger previous = BigInteger.valueOf(-1);
@@ -53,8 +53,8 @@ public class Fibonacci implements Iterable<BigInteger> {
         return current;
           
       }
-  }
-}
+    };
+  };
 }
 
       
